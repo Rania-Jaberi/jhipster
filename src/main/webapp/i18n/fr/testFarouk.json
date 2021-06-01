@@ -1,0 +1,26 @@
+{
+  "constatApp": {
+    "testFarouk": {
+      "home": {
+        "title": "TestFarouks",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Test Farouk",
+        "createOrEditLabel": "Créer ou éditer un Test Farouk",
+        "notFound": "Aucun Test Farouk trouvé"
+      },
+      "created": "Un nouveau Test Farouk a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Test Farouk avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Test Farouk avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Test Farouk {{ id }} ?"
+      },
+      "detail": {
+        "title": "Test Farouk"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "adresse": "Adresse",
+      "history": "History"
+    }
+  }
+}

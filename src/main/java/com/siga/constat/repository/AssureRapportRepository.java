@@ -1,11 +1,8 @@
-package com.siga.constat.domain.repository;
+package com.siga.constat.repository;
 
+import com.siga.constat.domain.AssureRapport;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.siga.constat.domain.AssureRapport;
-
 @Repository
-public interface AssureRapportRepository extends JpaRepository<AssureRapport,Long>{
-
-}
+public interface AssureRapportRepository extends JpaRepository<AssureRapport, Long> {}

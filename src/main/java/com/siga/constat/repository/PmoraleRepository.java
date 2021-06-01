@@ -1,10 +1,8 @@
-package com.siga.constat.domain.repository;
+package com.siga.constat.repository;
 
+import com.siga.constat.domain.Pmorale;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.siga.constat.domain.Pmorale;
 @Repository
-public interface PmoraleRepository extends JpaRepository<Pmorale,Long> {
-
-}
+public interface PmoraleRepository extends JpaRepository<Pmorale, Long> {}

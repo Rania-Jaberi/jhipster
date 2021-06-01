@@ -1,16 +1,10 @@
-package com.siga.constat.domain.repository;
+package com.siga.constat.repository;
 
+import com.siga.constat.domain.Gestionnaire;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.siga.constat.domain.Gestionnaire;
-
-
-
 @Repository
-public interface GestionnaireRepository extends JpaRepository <Gestionnaire,Long> {
-	
-	
-	String System = null;
-
+public interface GestionnaireRepository extends JpaRepository<Gestionnaire, Long> {
+    String System = null;
 }

@@ -1,4 +1,4 @@
-package com.siga.constat.domain.resource;/*
+package com.siga.constat.web.rest;/*
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -56,16 +56,16 @@ public class TestWebserviceResource {
 //	 *  traitement set date > 6 =1
 //	 *                      <6 = 0
 //	 * */
-//	
+//
 //	user.setcreateBy("system");
-//	
+//
 //  if (      user.getPassword().length()	>6)
 //  {
 //	  user.setCheck(1);
 //  }
 //  else
 //	  user.setCheck(0);
-//	
+//
 //user.setDateCreation(LocalDateTime.now());
 //
 //repo.save(user); // insert into constat_user (login,password) values (user.get ) ;
@@ -80,4 +80,3 @@ public class TestWebserviceResource {
 //{
 //	return repo.findAll();
 //}
-

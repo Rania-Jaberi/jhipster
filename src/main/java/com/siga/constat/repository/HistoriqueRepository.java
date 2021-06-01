@@ -1,12 +1,10 @@
-package com.siga.constat.domain.repository;
+package com.siga.constat.repository;
 
+import com.siga.constat.domain.Historique;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.siga.constat.domain.Historique;
-
 @Repository
-public interface HistoriqueRepository extends JpaRepository<Historique,Long>{
-	String System = null;
-
+public interface HistoriqueRepository extends JpaRepository<Historique, Long> {
+    String System = null;
 }
